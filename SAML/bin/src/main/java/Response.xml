@@ -1,0 +1,135 @@
+<?xml 
+version="1.0" 
+encoding="UTF-8"?>
+<saml2p:Response 
+    xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol" 
+    Destination="https://dev-43055720.okta.com/sso/saml2/0oa8afzkun589XwAm5d6" 
+    ID="_1f994c4f-1771-4d9c-bc38-a019da1997f5" 
+    InResponseTo="id3226019961835589269263858" 
+    IssueInstant="2021-02-26T12:44:36.167Z" 
+    Version="2.0">
+    <saml2:Issuer 
+        xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" 
+        Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">http://localhost:8080/SAML
+    </saml2:Issuer>
+    <saml2p:Status 
+        xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+        <saml2p:StatusCode 
+            Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+    </saml2p:Status>
+    <saml2:Assertion 
+        xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" 
+        ID="_38d95506-85f8-49a8-8ca6-fd27f48674b1" 
+        IssueInstant="2021-02-26T12:44:36.092Z" 
+        Version="2.0" 
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <saml2:Issuer 
+            Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">http://localhost:8080/SAML
+        </saml2:Issuer>
+        <ds:Signature 
+            xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:SignedInfo>
+                <ds:CanonicalizationMethod 
+                    Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                <ds:SignatureMethod 
+                    Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+                <ds:Reference 
+                    URI="#_38d95506-85f8-49a8-8ca6-fd27f48674b1">
+                    <ds:Transforms>
+                        <ds:Transform 
+                            Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <ds:Transform 
+                            Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+                            <ec:InclusiveNamespaces 
+                                xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" 
+                                PrefixList="xs"/>
+                        </ds:Transform>
+                    </ds:Transforms>
+                    <ds:DigestMethod 
+                        Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                    <ds:DigestValue>
+                        DkIqctIBeN3bzFpOSVp9OZOLEmtERZd4OkqJfDtY44U=
+                    </ds:DigestValue>
+                </ds:Reference>
+            </ds:SignedInfo>
+            <ds:SignatureValue>Pxt7bEIlJLtxTXRgUqlOaEhLeVftF+eT5Wexl45gk4ZLbhM4z241EiVSVDUdz45OGoqGhLCOJoonaa4LeKbf5AUbo25HBlAkYDG8OguExMqC/N560HmdZyQTfB4P+AZVy//ueIhVdvKjf5G/qU/UxHwZMSgnhGalDA9Mgg3piDiA+WihEpb6rYf83w4ixFXUnE08M5DYIjOZV0SQZUEKiYB6fkCOTadSPiVvRRXhUOV5g+sJ0E97G8RlySIiqD2BGnlWr4+6y1YgBag1BXeRvVDRgolE+x4C5g3E54eVwavMaYWD6xeHM/hfyObKzQawDgeuXxtQM2uoTSqsAh/
+                IgQ==
+            </ds:SignatureValue>
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDTTCCAjWgAwIBAgIEUVw+JzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwI5MTELMAkGA1UE
+CBMCVE4xEDAOBgNVBAcTB2NoZW5uYWkxDDAKBgNVBAoTA2xpYjEMMAoGA1UECxMDbGliMQ0wCwYD
+VQQDEwRqYWlpMB4XDTIxMDIyNTE4NTc0MFoXDTIyMDIyMDE4NTc0MFowVzELMAkGA1UEBhMCOTEx
+CzAJBgNVBAgTAlROMRAwDgYDVQQHEwdjaGVubmFpMQwwCgYDVQQKEwNsaWIxDDAKBgNVBAsTA2xp
+YjENMAsGA1UEAxMEamFpaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOTGVD1Ur+UU
+szX4BjkKnR06zvW41Cp23vZgpnYrC81eESf56fV6/KYttUdLOdjznoGa7G4w7hgbd3qiMdXCZqrN
+W0iIhHzxHQXCM6/X3lat3NyFd4AZAQJOrsGQIfxcR2bvdcMyOQIoEiVoEJDkbJ0y9FP3hbeub1/f
+tniZyvSBQjV62Xck3Wr5uY2/Qas+SWSVXqQNrIoxUBp/R4GDvV/Txknd3/rQH+5k3LcEg2L2f3yp
+uU/6ymrOztywnpegZuyIZtIkvxj47HMXa7r6fAa47Lz9s7Vn+fi3tuat0j62sCyvI2L89qawvfxR
+7TKRfmevqjaAx9aDTz8gvNRZifkCAwEAAaMhMB8wHQYDVR0OBBYEFGsB/pRmtU/uu7LVn5fPVXzK
+MnYJMA0GCSqGSIb3DQEBCwUAA4IBAQAhQmbitBkRe43bg2VFORg8487PLLIi9ojRLn6kfivRYfhp
+2r2DVSUSdBJBfb3/gZ8LbWN1sBw/Wa7MT9x31pYEcXr+jyXh5T4nZDMyCw8l9a0+04DzkC/7eYd1
+8Mg6CAK335hoPdGgxibTSxUBtFlbsYWd0Tk02JJQx1gWDvtg9gDh+dgp4QUs+5uov1kx2diQxmUm
+SqA4az6yK9ETszPG2WSRaQLEv2H+hZk60rPuwb8PGsKigzpAQHAlDcs8WK2Fo/8YOY9atJDyE65m
+4AYCUH1TwO5OsiIjcBHk8Mk8LO7dUUvBZ+9yVS6sFbB/6oHaw3kzXSyJ3R0JINGz6SmL</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </ds:Signature>
+        <saml2:Subject>
+            <saml2:NameID 
+                Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified" 
+                NameQualifier="http://localhost:8080/SAML">okta123
+            </saml2:NameID>
+            <saml2:SubjectConfirmation 
+                Method="urn:oasis:names:tc:SAML:2.0:cm:beare">
+                <saml2:SubjectConfirmationData 
+                    NotBefore="2021-02-26T12:44:36.092Z" 
+                    NotOnOrAfter="2021-02-26T12:46:36.092Z" 
+                    Recipient="https://www.okta.com/saml2/service-provider/spkdluteneimsgrqynuj"/>
+            </saml2:SubjectConfirmation>
+        </saml2:Subject>
+        <saml2:Conditions 
+            NotBefore="2021-02-26T12:44:36.092Z" 
+            NotOnOrAfter="2021-02-26T12:46:36.092Z">
+            <saml2:AudienceRestriction>
+                <saml2:Audience>https://www.okta.com/saml2/service-provider/spkdluteneimsgrqynuj</saml2:Audience>
+            </saml2:AudienceRestriction>
+        </saml2:Conditions>
+        <saml2:AuthnStatement 
+            AuthnInstant="2021-02-26T12:44:36.092Z" 
+            SessionIndex="1EF03BE78FD93A595E1B4671C900CCE3">
+            <saml2:AuthnContext>
+                <saml2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml2:AuthnContextClassRef>
+            </saml2:AuthnContext>
+        </saml2:AuthnStatement>
+        <saml2:AttributeStatement>
+            <saml2:Attribute 
+                FriendlyName="First Name" 
+                Name="firstName" 
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+                <saml2:AttributeValue 
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xsi:type="xs:string">okta
+                </saml2:AttributeValue>
+            </saml2:Attribute>
+            <saml2:Attribute 
+                FriendlyName="Last Name" 
+                Name="lastName" 
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+                <saml2:AttributeValue 
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xsi:type="xs:string">123
+                </saml2:AttributeValue>
+            </saml2:Attribute>
+            <saml2:Attribute 
+                FriendlyName="Email" 
+                Name="mail" 
+                NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+                <saml2:AttributeValue 
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                    xsi:type="xs:string">okta123@gmail.com
+                </saml2:AttributeValue>
+            </saml2:Attribute>
+        </saml2:AttributeStatement>
+    </saml2:Assertion>
+</saml2p:Response>

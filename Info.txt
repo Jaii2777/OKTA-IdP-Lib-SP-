@@ -1,0 +1,8 @@
+okta developer uri account -- https://dev-43055720.okta.com/
+
+
+<!-- Generate certificate-->
+
+keytool -genkey -keyalg RSA -alias selfsigned -keystore keystore.jks -storepass lib123 -validity 360 -keysize 2048
+
+keytool -export -alias selfsigned -file mydomain.der -keystore keystore-saml.jks

@@ -1,0 +1,66 @@
+<?xml 
+version="1.0" 
+encoding="UTF-8"?>
+<saml2p:AuthnRequest 
+    AssertionConsumerServiceURL="https://dev-43055720.okta.com/sso/saml2/0oa8afzkun589XwAm5d6" 
+    Destination="http://localhost:8080/SAML/SSO" 
+    ForceAuthn="false" 
+    ID="id3226019961835589269263858" 
+    IssueInstant="2021-02-26T12:43:59.011Z" 
+    Version="2.0" 
+    xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+    <saml2:Issuer 
+        xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">https://www.okta.com/saml2/service-provider/spkdluteneimsgrqynuj
+    </saml2:Issuer>
+    <ds:Signature 
+        xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod 
+                Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod 
+                Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference 
+                URI="#id3226019961835589269263858">
+                <ds:Transforms>
+                    <ds:Transform 
+                        Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform 
+                        Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod 
+                    Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <ds:DigestValue>
+                    9TfwxNC8tK9QRlnBEPMDrUdjIvg=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>Job/3h+vAnUe+vqfoiBU1lFdsD1KzJnTZIW3RizIp5yr5KtN4OaY/C8RewmxEB67/HrvDCg6k5kqyrRp44/j1JJTCxVGoyy1B0otzY7hylzx90Xycf7U7poJG5SfvtIwZqfA72M3VdLxN32mBH3pExL+mUfb2DqW8HSpXsr/XyP2dQhNWimfKD/TKEVgB8vbRsJrXe0tp9KynHxW4ynXR1/
+            lRGjgOzCBNM2pwWs442izkRabsBCUP8ALeYYjbGGLNLJwgRWIYWC1bPtuMuDAUC8WiGYvZdCjTLCFEjSfkTnIRmENV1OM7xjQvguDZsaXS1r5bkOFH3pl413sFe6i1g==
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>MIIDqDCCApCgAwIBAgIGAXfLBw8fMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi00MzA1NTcyMDEcMBoGCSqGSIb3DQEJ
+ARYNaW5mb0Bva3RhLmNvbTAeFw0yMTAyMjIxODM1MTNaFw0zMTAyMjIxODM2MTNaMIGUMQswCQYD
+VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsG
+A1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi00MzA1NTcyMDEc
+MBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBANb9oE7KMDZ6JjbV/BXA6zd4U9kxr8dwpGuD928nx07dtQUl+iXfK1cKHMeHOvpAYWPKMXzS
+WG0bourLwl2345bmaa2kGRK0bG7MY84BouYCU1y8Ch7tY+af9wdQzxRAqvJN9+NfuIKfSp4KM9B1
+Iofk8vMM4Wa3+rkSn78+4+FxIccAah70CMgqnS1FIQwaGHai7uxqewJMMb21nZ2g2puWHecYJ7GU
+5mBGVVFR6RqlDQ37qxuwRwZ2mVAJYgHclSd0WGW5ZqbJFqSPKv9aWGezRlRl7Q0IiILbakyjEZsO
+8pbiGLop9zTJdPwwrPmjxE0VUmSERPNw33EzuEkxmesCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+Ico/koGRUqMadvU8I2cuuGquEjzWC2aR/DHbjwqf72BBn+CpjVKogAslDHy93ZGAaqPRtdqtWlVf
+xHRmOc+k5uLvQ/0SaIbXqg4TOdKCSEn+UIvRJ3Nz8N3XEu4D6jKUY0HogM6qvTpdhxJr2CLLgMIl
+mliqNv5HqY16sZtytCK21Lt1iEnBO52oCvKAcRqcuE7hP8KxdiFtZaFhz2MSAvg0T5ezatvNZzyL
+6ayg+FtmePrGJJ65QXgVdx6z7eaRKua+q1HVFpUDsYBq653yWN3WXTUwatVkeAhX0r2el+gR8kpA
+ZCoTr5gNimVKJ2P/
+                    14D6JxWVTOrgJEbxrDG0SQ==
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <saml2p:NameIDPolicy 
+        Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"/>
+</saml2p:AuthnRequest>

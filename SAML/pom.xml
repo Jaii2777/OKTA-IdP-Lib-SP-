@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <groupId>com.lib</groupId>
+	<artifactId>library</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>library</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>11</java.version>
+	</properties>
+
+    <dependencies>
+
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.opensaml/opensaml -->
+		<dependency>
+			<groupId>org.opensaml</groupId>
+			<artifactId>opensaml</artifactId>
+			<version>2.6.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.opensaml/openws -->
+		<dependency>
+			<groupId>org.opensaml</groupId>
+			<artifactId>openws</artifactId>
+			<version>1.5.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.opensaml/xmltooling -->
+		<dependency>
+			<groupId>org.opensaml</groupId>
+			<artifactId>xmltooling</artifactId>
+			<version>1.4.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.30</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.30</version>
+		</dependency>
+
+		<dependency>
+   			 <groupId>com.onelogin</groupId>
+   			 <artifactId>java-saml</artifactId>
+    		 <version>2.0.0</version>
+</dependency>
+	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.3.1</version>
+				<configuration>
+					<webResources>
+						<resource>
+							<directory>WebContent</directory>
+						</resource>
+					</webResources>
+				</configuration>
+			</plugin>
+			<plugin>    
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
+
+</project>

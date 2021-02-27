@@ -1,0 +1,15 @@
+ValidateUser.class
+SAMLWriter$SAMLInputContainer.class
+CheckUserSession.class
+TestCredential.class
+SAMLBuilder.class
+GenResponseAssertion$SAMLInputContainer.class
+SingleSignOnServiceURI.class
+Error.class
+GenResponse.class
+SamlResponse.class
+FinalAns.class
+GenResponseAssertion.class
+Action.class
+SSO.class
+SAMLWriter.class
